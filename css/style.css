@@ -40,6 +40,10 @@
     font-weight: bold;
 }
 
+.menu_a{
+    text-decoration: none;
+}
+
 .navbar ul li:hover{
     background-color: black;
     color: gold;
@@ -137,38 +141,6 @@
     }
 }
 
-/* #first_img {
-    overflow: hidden;
-}
-
-.ser1{
-    position: relative;
-    color: black;
-}
-
-#second_img {
-    overflow: hidden;
-}
-#third_img {
-    overflow: hidden;
-}
-
-#first_img img {
-    width: 100%;
-    height: 50vh;
-}
-
-#second_img img{
-    width: 100%;
-    height: 50vh;
-}
-
-
-
-#third_img img{
-    width: 100%;
-    height: 50vh;
-} */
 
 
 .qasimh1 {
@@ -200,7 +172,7 @@
     margin-left: 500px;
 }
 
-.qasim1 {
+.animate__fadeInUp {
     overflow: hidden;
     margin-top: 10px;
     height: 550px;
@@ -432,3 +404,116 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  /* Our Team Css  */
+
+  
+  .Sajid {
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    background-color: #A5FF4B;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.Qasim {
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    background-color: #A5FF4B;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.Shehzad {
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    background-color: #A5FF4B;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.main2 .Sajid:hover {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    box-shadow: 5px 5px 10px 10px black;
+    transform: scale(1.1);
+}
+
+.main2 .Qasim:hover {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    box-shadow: 5px 5px 10px 10px black;
+    transform: scale(1.1);
+}
+
+.main2 .Shehzad:hover {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    box-shadow: 5px 5px 10px 10px black;
+    transform: scale(1.1);
+}
+
+.span1 {
+    font-size: 22px;
+}
+
+.span2 {
+    font-size: 22px;
+}
+
+.span3 {
+    font-size: 22px;
+}
+
+.media{
+    margin-top: 40px;
+}
+
+.socialmediasajid {
+    margin-left: 330px;
+    display: inline;
+}
+
+.socialmediashehzad {
+    margin-left: 100px;
+    display: inline;
+}
+
+.socialmediaqasim {
+    margin-left: 110px;
+    display: inline;
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+
+.fa-brands:hover {
+    color:black;
+}
+
+
+.fa-facebook {
+    color: rgb(24, 119, 242);
+}
+
+.fa-linkedin {
+    color: rgb(10, 102, 194);
+}
+ .fa-whatsapp {
+    color: rgb(37,211,102);
+ }
+
+.fa-github {
+    color: rgb(43,49,55);
+}
