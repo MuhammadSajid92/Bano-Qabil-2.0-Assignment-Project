@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 12px 30px;
+    width: 100%;
+    height: 15vh;
+    background-color: #fdfdfd;
+    box-shadow: 4px 4px 6px 5px white;
+
+}
+
+
+.navbar .logo h1 {
+    font-size: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    margin-right: 60px;
+    font-size: 1.2rem;
+}
+
+.navbar ul :first-child{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.navbar ul li:hover{
+    background-color: black;
+    color: gold;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    border-radius: 13px;
+}
+
+
+@media(max-width:532px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .logo h1 {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* hero section */
+
+
+
+.hero {
+    background-image: url('../images/pic3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-direction: row;
+    padding: 0px 50px;
+}
+
+
+.one {
+    display: flex;
+
+    border: 1px solid black;
+    height: 550px;
+    width: 370px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    /* background-color: black; */
+}
+
+.main_heading {
+    margin-top: 20px;
+}
+
+.service_heading {
+    text-align: center;
+}
+
+
+@media(max-width:532px) {
+    .service {
+        flex-direction: column;
+    }
+
+    .one {
+        width: 70%;
+        height: 45vh;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .main_heading {
+        margin-top: 20px;
+    }
+}
+
+/* #first_img {
+    overflow: hidden;
+}
+
+.ser1{
+    position: relative;
+    color: black;
+}
+
+#second_img {
+    overflow: hidden;
+}
+#third_img {
+    overflow: hidden;
+}
+
+#first_img img {
+    width: 100%;
+    height: 50vh;
+}
+
+#second_img img{
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+#third_img img{
+    width: 100%;
+    height: 50vh;
+} */
+
+
+.qasimh1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    margin-right: 500px;
+    border: 2px solid black;
+    font-weight: lighter;
+    border-radius: 30px;
+    /* padding: 10px 10px; */
+    font-size: 40px;
+    text-shadow: 4px 4px 4px greenyellow;
+
+}
+
+.qasimb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 40px;
+
+}
+
+/* <!-- First Dive Work --> */
+.qasimh1 {
+    margin-left: 500px;
+}
+
+.qasim1 {
+    overflow: hidden;
+    margin-top: 10px;
+    height: 550px;
+    width: 370px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.qasimh2 {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.qasimpara1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/* 2nd div work  */
+
+.qasim2 {
+    overflow: hidden;
+    margin-top: 10px;
+    height: 550px;
+    width: 370px;
+    border-radius: 30px;
+    background-color: black;
+
+}
+
+.qasim3 {
+    overflow: hidden;
+    margin-top: 10px;
+    height: 550px;
+    width: 370px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.qasimh22 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.qasimpara2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.qasimh22 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+/* 3rd div work  */
+
+.qasimpara3 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+
+.sajid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.sajid p{
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+
+@media(max-width:532px){
+    .sajid{
+        text-align: center;
+        padding: 10px;
+    
+    }
+}
