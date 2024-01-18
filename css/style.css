@@ -6,19 +6,23 @@
 }
 
 
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 12px 30px;
-    width: 100%;
-    height: 15vh;
-    background-color: #fdfdfd;
-    box-shadow: 4px 4px 6px 5px white;
-
+body{
+  background-image: url(../images/coding\ 4.webp);
+  /* background-repeat: no-repeat; */
 }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 12px 30px;
+        width: 100%;
+        height: 12vh;
+        background-color: #fdfdfd;
+        box-shadow: 4px 4px 6px 5px white;
+
+    }
 
 
 .navbar .logo h1 {
@@ -33,18 +37,19 @@
     gap: 40px;
     margin-right: 60px;
     font-size: 1.2rem;
+    margin-top: 20px;
 }
 
-.navbar ul :first-child{
+.navbar ul :first-child {
     color: goldenrod;
     font-weight: bold;
 }
 
-.menu_a{
+.menu_a {
     text-decoration: none;
 }
 
-.navbar ul li:hover{
+.navbar ul li:hover {
     background-color: black;
     color: gold;
     padding: 8px 15px;
@@ -57,9 +62,9 @@
 
 
 @media(max-width:532px) {
-    .navbar ul {
+    /* .navbar ul {
         display: none;
-    }
+    } */
 
     .logo h1 {
         align-items: center;
@@ -74,7 +79,7 @@
 
 .hero {
     background-image: url('../images/pic3.jpg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -83,16 +88,8 @@
     align-items: center;
     justify-content: center;
     color: white;
-   
+
 }
-
-
-
-
-
-
-
-
 
 .service {
     display: flex;
@@ -276,22 +273,25 @@
 }
 
 .footer {
-    background-color: rgb(248, 203, 211);
+    /* background-color: rgb(248, 203, 211); */
     text-align: center;
     /* height: 1000px; */
     /* bottom: 10px; */
+    color: white;
 }
 
 .h3 {
     text-align: center;
     font-size: 50px;
     font-weight: lighter;
+    color: white;
 }
 
 .h2 {
     font-size: 25px;
     margin-top: 25px;
     font-weight: lighter;
+    color: white;
 }
 
 .para1 {
@@ -300,6 +300,7 @@
     text-align: center;
     line-height: 25px;
     font-size: 20px;
+    color: white;
 }
 
 
@@ -310,7 +311,7 @@
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-
+    color: white;
 }
 
 .love2 {
@@ -325,10 +326,16 @@
     font-size: 20px;
 }
 
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .main2 {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -337,78 +344,98 @@
     margin-top: 30px;
 }
 
-.sajid{
+.sajid {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10vh;
 }
 
-.sajid p{
+.sajid p {
     font-weight: bold;
     word-spacing: 2px;
 }
 
 
-@media(max-width:532px){
-    .sajid{
+@media(max-width:532px) {
+    .sajid {
         text-align: center;
         padding: 10px;
-    
+
     }
 }
 
 /* <-- contact css --> */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
 
-  #mail {
-    width: 100%; /* Full width */
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+#mail {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+.container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color:rgba(248, 180, 6, 0.555);
+    box-shadow: 8px 8px 6px red;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
     padding: 20px;
-  }
+}
 
-  /* Our Team Css  */
+#email{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    border: transparent;
+}
+#number{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    border: transparent;
+}
+/* Our Team Css  */
 
-  
-  .Sajid {
+
+.Sajid {
     height: 330px;
     width: 230px;
     border: 1px solid black;
@@ -475,45 +502,34 @@ input[type=text], select, textarea {
     font-size: 22px;
 }
 
-.media{
+/* .media {
     margin-top: 40px;
-}
+} */
 
-.socialmediasajid {
-    margin-left: 330px;
-    display: inline;
-}
 
-.socialmediashehzad {
-    margin-left: 100px;
-    display: inline;
-}
-
-.socialmediaqasim {
-    margin-left: 110px;
-    display: inline;
+.fa-brands {
+    font-size: 20px;
 }
 
 .fa-brands {
-    font-size: 40px;
-}
-
-.fa-brands:hover {
-    color:black;
+    color:white;
 }
 
 
-.fa-facebook {
+.fa-facebook:hover {
     color: rgb(24, 119, 242);
 }
 
-.fa-linkedin {
+.fa-linkedin:hover{
     color: rgb(10, 102, 194);
 }
- .fa-whatsapp {
-    color: rgb(37,211,102);
- }
 
-.fa-github {
-    color: rgb(43,49,55);
+.fa-whatsapp:hover {
+    color: rgb(37, 211, 102);
 }
+
+.fa-github:hover {
+    color: rgb(43, 49, 55);
+}
+
+
