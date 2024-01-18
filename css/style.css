@@ -8,7 +8,7 @@
 
 body{
   background-image: url(../images/coding\ 4.webp);
-  /* background-repeat: no-repeat; */
+  width: fit-content;
 }
 
     .navbar {
